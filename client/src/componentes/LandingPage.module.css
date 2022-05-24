@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.div_landing_container{
+    width: 100vw;
+    height: 100vh;
+    background-image: url('./imagenes/landingIMG.jpg');
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+}
+.image_landing{
+    margin-top: 5.5em;
+    margin-left: 6em;
+    width: 750px;
+    border-radius: 100px;
+}
+.container_button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 350px;
+    bottom: 220px;
+    width: 400px;
+    height: 200px;
+}
+.link{
+    display: inline;
+    width: 100%;
+}
+.button_landing{
+    width: 70%;
+    height: 80%;
+    padding: .4em 1.5em .4em 1.5em;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 3em;
+    background-color: #ebb203;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: -4px 20px 20px , 3px 40px 40px;
+    border: 1px solid #b3870a;
+    transition: 0.25s;
+}
+.button_landing:hover{
+    box-shadow: 1px 1px 70px 1px , 1px 1px 100px 1px #ebb203;
+    background-color:#fec82f ;
+}

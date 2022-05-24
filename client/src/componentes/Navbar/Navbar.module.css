@@ -1,0 +1,28 @@
+.container_navbar{
+    margin-right: 50px;
+}
+.label_searchbar{
+    font-weight: bold;
+    font-size: 20px;
+    letter-spacing: -1px;
+}
+.button_searchbar{
+    margin-left: 10px;
+    padding: 4px 7px 4px 7px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 1px 1px 5px 1px ;
+    font-weight: bold;
+    transition: 0.2s;
+}
+.button_searchbar:hover{
+    color:black;
+    box-shadow: 1px 1px 10px 1px yellow;
+    background-color: yellow;
+}
+.input_searchbar{
+    padding: 4px 7px 4px 7px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 1px 1px 5px 1px ;
+}

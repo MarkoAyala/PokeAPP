@@ -1,0 +1,199 @@
+.container_createPokemon{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #d13232;
+}
+
+.container_card{
+    border: 8px solid black;
+    box-shadow: 1px 1px 10px 1px black;
+    width: 700px;
+    height: 800px;
+    border-radius: 20px;
+    background-color: white;
+}
+
+.container_button{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: end;
+}
+.container_button button{
+    padding: 5px 20px 5px 20px;
+    transition: 0.3s;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 1px 1px 3px 1px black;
+    cursor: pointer;
+}
+.container_button button:hover{
+    background-color: lightcoral;
+}
+
+.pokebola{
+    position: absolute;
+    top: 45px;
+    width: 5.5em;
+    height: 5.5em;
+    border:8px solid black ;
+    border-radius: 50px;
+    background-color: white;
+    box-shadow: 1px 1px 10px 1px black;
+   
+}
+
+.container_card h1 {
+    text-align: center;
+    margin: 30px 0px 20px 0px;
+}
+
+.form{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.container_form{
+    width: 90%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+
+
+
+.errorInput{
+    color: red;
+    position: relative;
+    bottom: 11px;
+    left: 70px;
+}
+
+
+.input1{
+    margin-left: 0px;
+    margin-right: 71px;
+}
+.container_input1{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.input2{
+    margin-left: 10px;
+    margin-right: 90px;
+}
+.container_input2{
+    margin-top: 10px;
+    margin-bottom: 10px;;
+}
+
+.input3{
+    margin-left: 0px;
+    margin-right: 75px;
+}
+.container_input3{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.input4{
+    margin-left: 5px;
+    margin-right: 78px;
+}
+.container_input4{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.input5{
+    margin-left: -1px;
+    margin-right: 66px;
+}
+.container_input5{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.input6{
+    margin-left: 12px;
+    margin-right: 80px;
+}
+.container_input6{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.input7{
+    margin-left: 17px;
+    margin-right: 87px;
+}
+.container_input7{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.input8{
+    margin-left: 13px;
+    margin-right: 69px;
+}
+.container_input8{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.input9{
+    margin-left: 20px;
+    margin-right: 70px;
+}
+.container_input9{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.errorInput1{
+    color: red;
+    margin-bottom: 10px;
+}
+
+.button_clean{
+    margin-top:20px;
+    padding: 5px 30px 5px 30px;
+    width: 225px;
+    margin-right: 10px;
+    border-radius: 7px;
+    border: none;
+    box-shadow: 1px 1px 10px 1px black;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.button_create{
+    padding: 5px 30px 5px 30px;
+    width: 225px;
+    border-radius: 7px;
+    border: none;
+    box-shadow: 1px 1px 10px 1px black;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.button_clean:hover , .button_create:hover , .button_new:hover{
+    background-color: lightcoral;
+}
+.button_new{
+    margin-top:20px;
+    padding: 5px 30px 5px 30px;
+    width: 300px;
+    margin-right: 10px;
+    border-radius: 7px;
+    border: none;
+    box-shadow: 1px 1px 10px 1px black;
+    cursor: pointer;
+    transition: 0.3s;
+}

@@ -1,0 +1,79 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.home_container{
+    width: 100%;
+    min-height: 100%;
+}
+
+
+/* NAVBAR */
+.home_navbar_container{
+    display: flex;
+    width: 100%;
+    height: 9vh;
+    flex-direction: row;
+    padding: 0px 5px 0px 5px;
+    justify-content:space-between;
+    align-items: center;
+    background: #db0000;
+    border-bottom: 8px solid black;
+    box-shadow: 1px 1px 10px 1px black;
+    margin-bottom: 5px;
+}
+.img_navbar_home{
+    width: 10em;
+    height: auto;
+}
+.pokebola{
+    position: relative;
+    top: 40px;
+    width: 5.5em;
+    height: 5.5em;
+    border:8px solid black ;
+    border-radius: 50px;
+    background-color: white;
+    box-shadow: 1px 1px 10px 1px black;
+    margin-left: 50px;
+}
+/*   --------------------------    */
+
+
+
+
+.container_asideMasMain{
+    width: 100%;
+    min-height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+
+}
+
+.container_aside{
+    width: 20%;
+    height: 50vh;
+    padding: 25px 25px 25px 25px;
+    display: flex;
+    border: 1px solid blue;
+    flex-direction: column;
+    background-color: #608bff;
+    position: fixed;
+    top: 220px;
+    border-radius: 10px;
+    margin-left: 20px;
+}
+.container_main{
+    width: 76%;
+    
+}
+
+.fontSize{
+    font-size: 30px;
+}
+.imgNoExiste{
+    margin-left: 70px;
+    margin-top: 40px;
+}

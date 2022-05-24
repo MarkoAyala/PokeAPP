@@ -1,0 +1,26 @@
+.li a:link, .li a:visited, .li a:active {
+    text-decoration:none;
+}
+.li a {
+    color:white;
+    font-weight: bold;
+}
+.li{
+    text-align: center;
+    width: 35px;
+    height: 35px;
+    border-radius: 20px;
+    list-style: none;
+    padding: 5px 5px 5px 5px;
+    margin: 30px 10px 50px 10px;
+    border: 1px solid black;
+    background-color:#db0000;
+    box-shadow: 1px 1px 5px 1px black;
+    transition: 0.3s;
+}
+.ul{
+    display: flex;
+}
+.li:hover{
+    background-color: red;
+}

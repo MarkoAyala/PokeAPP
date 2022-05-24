@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Glitch&display=swap');
+.container_title{
+    text-align: center;
+    z-index: 600;
+}
+.title{
+    font-family: 'Rubik Glitch', cursive;
+    color:#db0000;
+    font-size: 60px;
+}
+.container_padre_aside{
+    width: 100%;
+    height: 100%;
+
+}
+.container_aside{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    z-index: 100;
+}
+
+
+
+/* SELECTS Y LABELS */
+.container_label{
+    width: 90%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    z-index: 900;
+    margin-left: 14px;
+}
+.container_label1{
+    
+    width: 100%;
+    height: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container_label2{
+    
+    width: 100%;
+    height: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container_label3{
+    
+    width: 100%;
+    height: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.select_filter{
+    width: 50%;
+    z-index: 901;
+}
+.label_filter{
+    width: 90px;
+    font-weight: bold;
+    margin-bottom: 7px;
+}
+.label_filter1{
+    width: 146px;
+    font-weight: bold;
+    margin-bottom: 7px;
+}
+.label_filter2{
+    width: 200px;
+    font-weight: bold;
+    margin-bottom: 7px;
+}
+/* -------------------- */
+
+
+
+
+/* BUTTONS FILTER */
+.container_button_clearFilter{
+    margin-top: 1em;
+    display: flex;
+    justify-content:space-around;
+    z-index: 1000;
+}
+.button_clearFilter{
+    padding: 6px 8.5px 6px 8.5px;
+    font-weight: bold;
+    background-color:#db0000 ;
+    color: white;
+    border-radius: 6px;
+    box-shadow: 2px 2px 4px 2px black;
+    margin-bottom: 25px;
+    z-index: 500;
+}
+.button_clearFilter:hover{
+    font-weight: bold;
+    background-color:#aa0000 ;
+}
+.button_clearFilter1{
+    padding: 6px 8.5px 6px 8.5px;
+    font-weight: bold;
+    background-color:#db0000 ;
+    color: white;
+    border-radius: 6px;
+    box-shadow: 2px 2px 4px 2px black;
+    margin-bottom: 25px;
+    z-index: 510;
+}
+.button_clearFilter1:hover{
+    font-weight: bold;
+    background-color:#aa0000 ;
+}
+/* ------------------------------ */
+
+
+.container_marco{
+    margin-left: -30px;
+    position: fixed;
+    top: 220px;
+    width: 385px;
+    height: 480px;
+    z-index: 200;
+}
+.marcoAside{
+    width: 100%;
+    height: 100%;
+}
